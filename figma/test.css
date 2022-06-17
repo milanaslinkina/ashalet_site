@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: rgb(49, 49, 49);
+    height: 699px;
+    color: white;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.info{
+    height: 321px;
+    background: #131313;
+    color: white;
+}
+
+.img-text{
+    height: 808px;
+    background: #FFFFFF;
+    color: black;
+    padding-top: 120px;
+}
+
+.toptop ul{
+    list-style-type: none;
+}
+
+.logo{
+    width: 62px;
+    height: 62px;
+}
+
+header nav{
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    height: 17px;
+    width: 17px;
+}
+
+.nav1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    width: 260px;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 62px;
+    height: 16px;
+}
+
+ul.contacts {
+    margin-left: 518px;
+    list-style-type: none;
+    width: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    left: 282px;
+    top: 472px;
+
+    background: #FFCB06;
+    border-radius: 25px;
+}
+
+.silka{
+    position: absolute;
+    width: 102px;
+    height: 17px;
+    left: 320px;
+    top: 489px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.strelka{
+    position: absolute;
+    width: 19px;
+    height: 16px;
+    left: 481px;
+    top: 489px;
+}
+
+.zagolovok{
+    position: absolute;
+    width: 260px;
+    height: 102px;
+    left: 286px;
+    top: 229px;
+
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.mini-text{
+    position: absolute;
+    width: 254px;
+    height: 55px;
+    left: 286px;
+    top: 361px;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* Text */
+
+    color: #D4D4D4;
+}
+
+.big-img{
+    position: absolute;
+    width: 438px;
+    height: 438px;
+    left: 680px;
+    top: 140px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toptop{
+    margin-top: 69px;
+}
+
+.toptoptop{
+    margin-top: 34px;
+}
+
+.zagolovok2{
+    width: 375px;
+    height: 85px;
+    left: 679px;
+    top: 85px;
+    
+    /* Text/2 */
+    
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+.mini-text2{
+    width: 454px;
+    height: 207px;
+    left: 679px;
+    top: 214px;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.block1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spiski{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spiski li{
+    color: #FFCB06;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.spiski li span{
+    color:rgb(0, 0, 0);
+}
+
+.spiski h2{
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.footer-block1{
+    height: 477px;
+    background: #F0F0F0;
+    padding-top: 100px;
+}
+
+.footer-block2{
+    height: 468px;
+    background: #222222;
+    padding-top: 97px;
+}
+
+.footer-block3{
+    padding-top: 60px;
+    height: 290px;
+    background: #131313;
+    color: white;
+}
+
+.footer-block3 ul{
+    list-style-type: none;
+}
+
+.footer-block1 h1{
+    width: 318px;
+    height: 56px;
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.mini-text3{
+    margin-top: 60px;
+    width: 339px;
+    height: 55px;
+    left: 162px;
+    top: 216px;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.footer-block1 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input1{
+    margin-bottom: 9px;
+    width: 440px;
+    height: 50px;
+    border: none;
+}
+
+.input2{
+    margin-bottom: 9px;
+    width: 214px;
+    height: 50px;
+    border: none;
+}
+
+.text-checkbox{
+    margin-top: 19px;
+    width: 400px;
+    height: 17px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    
+    width: 25px;
+    height: 25px;
+}
+
+.button2{
+    display: block;
+    margin-top: 46px;
+    width: 215px;
+    height: 50px;
+    
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+}
+
+.zagolovok3{
+    width: 159px;
+    height: 56px;
+
+    /* Text/2 */
+
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FECA30;
+}
+
+.abc{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-text4{
+    width: 467px;
+    height: 55px;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+    /* Text */
+
+    color: #D4D4D4;
+}
+
+table{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+
+
+    /* Text */
+
+    color: #D4D4D4;
+    margin-top: 78px;
+    width: 960px;
+    height: 150px;
+}
+
+.line1{
+    position: absolute;
+    width: 960px;
+    top: 2895px;
+
+    border: 1px solid #555555;
+    transform: rotate(0.18deg);
+}
+
+.line2{
+    position: absolute;
+    width: 960px;
+    top: 2942px;
+
+    border: 1px solid #555555;
+    transform: rotate(0.18deg);
+}
+
+.aabbcc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.minimini-text{
+    width: 59px;
+    height: 17px;
+
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Text */
+
+    color: #D4D4D4;
+}
+
+.parasha{
+    width: 162px;
+    height: 36px;
+    /* Text */
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 128px;
+
+    color: #555555;
+}
+
+.nananana{
+    display: flex;
+    margin-left: 98px;
+}
+
+.nananana div{
+    width: 180px;
+    margin-right: 130px;
+}
+
+.nananana div h1{
+    width: 90px;
+    height: 17px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Text */
+
+    color: #D4D4D4;
+}
+
+.nananana li{
+    width: 140px;
+    height: 40px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #888888;
+}
+
+.nananana ul{
+    margin-top: 70px;
+}
+
+.line3{
+
+    width: 180px;
+    height: 0px;
+   
+    border: 1px solid #555555;
+}
+
